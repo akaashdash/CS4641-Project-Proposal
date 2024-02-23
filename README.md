@@ -1,3 +1,14 @@
+# Music Genre Categorization
+
+## Team
+Dorsa Ajami - dajami3@gatech.edu  
+Ariya Foroshani - aforoshani3@gatech.edu  
+Stella Hansen - ehansen35@gatech.edu  
+Nikan Hassanipak - nhassanipak3@gatech.edu  
+Akaash Dash - adash37@gatech.edu
+
+**Mentor:** Mohammad Taher - mtaher3@gatech.edu
+
 ## Introduction/Background
 Our project will cover genre classification in the music industry, based on the features extracted from the audio files of songs with explicit genre labels. The GTZAN dataset contains the following for each song in the 1000-song dataset of 10 genres:
 - Raw audio files (.wav) 
@@ -33,7 +44,14 @@ With our project being based around classification problem with 10 classes, the 
 - Precision (> 0.7) (Per-class/averaged)
 - Recall (> 0.7)  (Per-class/averaged)
 - F1 Score (> 0.7)  (Per-class/averaged)
+
 While we hope that we can achieve 70% and above in these metrics (which are cited as good metric levels for 10 classes), we expect that some classes will have lower metric levels (particularly similar genres that will get misidentified for one another, i.e. pop and hip-hop). This is why we will also use the 10x10 confusion matrix to detect these specific misidentifications.
+
+## Contributions
+![contributions](./images/contributions.png)
+
+## Gantt Chart
+![gantt](./images/gantt.png)
 
 ## References
 [1] M. Chaudhury, A. Karami, and M. A. Ghazanfar, “Large-scale music genre analysis and classification using Machine Learning with apache spark,” Electronics, vol. 11, no. 16, p. 2567, Aug. 2022. doi:10.3390/electronics11162567 
@@ -41,7 +59,4 @@ While we hope that we can achieve 70% and above in these metrics (which are cite
 [2] J. Nam, K. Choi, J. Lee, S.-Y. Chou, and Y.-H. Yang, “Deep learning for audio-based music classification and tagging: Teaching computers to distinguish rock from Bach,” IEEE Signal Processing Magazine, vol. 36, no. 1, pp. 41–51, Dec. 2018. doi:10.1109/msp.2018.2874383 
 
 [3] H. Purwins et al., “Deep Learning for Audio Signal Processing,” IEEE Journal of Selected Topics in Signal Processing, vol. 13, no. 2, pp. 206–219, May 2019. doi:10.1109/jstsp.2019.2908700 
-
-
-
 
