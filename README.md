@@ -10,7 +10,7 @@ Akaash Dash - adash37@gatech.edu
 **Mentor:** Mohammad Taher - mtaher3@gatech.edu
 
 ## Introduction/Background
-Our project will cover genre classification in the music industry, based on the features extracted from the audio files of songs with explicit genre labels. The GTZAN dataset contains the following for each song in the 1000-song dataset of 10 genres:
+Our project will cover genre classification in the music industry, based on the features extracted from the audio files of songs with explicit genre labels. The [GTZAN dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification) contains the following for each song in the 1000-song dataset of 10 genres:
 - Raw audio files (.wav) 
 - Mel-Spectrogram representations 
 - .csv containing features extracted from the audio files, and the song's genre label (58 features per song).
